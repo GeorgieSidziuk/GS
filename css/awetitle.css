@@ -1,0 +1,19 @@
+.awesome-title {
+    text-align: center;
+  
+    
+}
+.awesome-title__main {
+    margin-bottom: 30px;
+}
+
+.awesome-title__main::after{
+    contain: '';
+    display: block;
+    width: 65px;
+    border: 1px solid #E72424;
+
+}
+
+.awesome-description {
+}
