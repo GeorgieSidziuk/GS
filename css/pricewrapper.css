@@ -1,0 +1,33 @@
+.price-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 65px -15px 0px;
+
+}
+.price-block {
+    width: 340px;
+    margin: 0 15px;
+    text-align: center;
+ 
+}
+.item-title {
+    padding: 15px 0 10px ;
+  
+
+}
+.item-list {
+}
+.price {
+    padding: 25px 0 35px;
+    margin: 2px 0 2px;
+  
+}
+.free {
+    padding: 18px 0 16px;
+}
+.space {
+    padding: 10px 0 12px;
+    margin: 2px 0 2px;
+
+}
