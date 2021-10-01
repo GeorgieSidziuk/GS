@@ -1,0 +1,45 @@
+.axure{
+    position: relative;
+    background-image: url("../img/background/xcxx_V8YsbA.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    
+}
+
+
+.axure-header{
+    text-align: center;
+    color: white;
+
+}
+.axure-title {
+    
+}
+
+.axure-title::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 64px;
+    margin: 35px auto 0;
+    background-color: white;
+}
+.axure-description {
+    margin-top: 30px;
+}
+.download {
+    width: 135px;
+    padding: 12px 0;
+    margin:35px auto 0;
+    border: 1px solid white;
+    border-radius: 13px;
+}
+
+.download-link{
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    }
