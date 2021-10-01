@@ -1,7 +1,10 @@
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
 @import url("../css/fonts.css");
+@import url("../css/header.css");
 @import url("../css/awetitle.css");
 @import url("../css/awewrapper.css");
 @import url("../css/pricetitle.css");
 @import url("../css/pricewrapper.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+@import url("../css/customertitle.css");
+@import url("../css/customerwrap.css");
+

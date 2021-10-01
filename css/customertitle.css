@@ -1,22 +1,17 @@
-.awesome-title {
+.customers-title {
     text-align: center;
-  
-    
 }
-.awesome-title__main {
-    margin-bottom: 30px;
+.customer-title__main {
 }
 
-.awesome-title__main::after{
-
+.customer-title__main::after{
     content: '';
     display: block;
     height: 1px;
     width: 64px;
     margin: 34px auto 0;
     background-color: crimson;
-
 }
-
-.awesome-description {
+.customers-description {
+    margin-top: 30px;
 }

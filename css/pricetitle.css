@@ -1,11 +1,19 @@
 .pricing-title {
     text-align: center;
 }
-.pricing-title__main {
-    
+.pricing-title__main{
 
 }
-.awesome-description {
+.pricing-title__main::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 64px;
+    margin: 34px auto 0;
+    background-color: crimson;
+}
+
+.pricing-description {
     margin-top: 35px;
 
 }

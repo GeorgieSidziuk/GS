@@ -1,0 +1,25 @@
+
+header{
+    background-color: #000000;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-logo {
+    color: #FFFFFF;
+}
+.header-menu {
+   
+}
+.header-menu__list {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    color:#FFFFFFB2
+}
+.header-menu__item {
+    margin-right: 48px;
+}
