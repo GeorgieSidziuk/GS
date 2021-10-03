@@ -11,6 +11,9 @@ header{
 .header-logo {
     color: #FFFFFF;
 }
+.header-logo{
+}
+
 .header-menu {
    
 }
@@ -27,6 +30,11 @@ header{
 
 .logo{
     color: white;
+}
+.logo::after{
+    content: 'IT';
+    color: crimson;
+
 }
 
 .menu-link{

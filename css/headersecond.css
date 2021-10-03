@@ -1,0 +1,63 @@
+.header-second{
+   position: relative;
+    background-image: url("../img/background/background2.png");
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: column;
+    
+}
+.header-row__logo {
+}
+.logo-second {
+    color: white;
+}
+.logo-second::after{
+    content: 'IT';
+    color: crimson;
+}
+.header-row__title {
+    margin-top: 32px;
+    
+}
+.header-maintitle {
+    color: white;
+}
+.header-maintitle::after{
+    content: '';
+    display: block;
+    width: 64px;
+    height:1px ;
+    margin-top: 32px ;
+    border-bottom: 1px solid white;
+
+}
+.header-description {
+    margin-top: 40px;
+    color: white;
+
+}
+.header-download {
+    width: 135px;
+    padding: 12px;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+  
+    
+}
+.header-download_link {
+    color: white; 
+    padding: ;
+    
+}
+.header-row__form {
+}
