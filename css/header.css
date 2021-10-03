@@ -18,8 +18,17 @@ header{
     display: flex;
     align-items: center;
     padding: 25px 0;
-    color:#FFFFFFB2
+    
 }
 .header-menu__item {
     margin-right: 48px;
+    
+}
+
+.logo{
+    color: white;
+}
+
+.menu-link{
+    color: #FFFFFF;
 }

@@ -1,0 +1,32 @@
+.socials {
+    
+    
+}
+
+.social-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-text {
+    width: 360px;
+}
+.social-title {
+}
+.social-description {
+}
+.social-block {
+}
+.social-list {
+display: flex;
+justify-content: space-around;
+    
+    
+}
+.social-list__item {
+    padding: 5px;
+    margin: 0px 15px;
+    
+}

@@ -22,16 +22,19 @@
     margin: auto;
     
 }
-.awesome-item__circle:hover{
-    transform: scale(1.5);
-}
 
-i {
+
+.awesome-icon{
     margin: auto;
     font-size: 40px;
     color:#D98943;
+    transition: all 0.4s ease;
 }
 
+.awesome-icon:hover{
+    transform: rotate(360deg);
+
+}
 
 .awesome-item__text {
     margin-top: 30px;
