@@ -1,0 +1,18 @@
+
+.contactus-title{
+text-align: center;
+}
+.contactus-title__main {
+}
+.contactus-title__main::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 64px;
+    border-bottom: 1px solid crimson;
+    margin: 35px auto 0px;
+}
+
+.contactus-title__description {
+    margin-top: 35px;
+}
