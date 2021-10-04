@@ -11,27 +11,56 @@
     width: 340px;
     margin: 0 15px;
     text-align: center;
+    transition: all 0.5s ease;
+   
+    
+}
+.price-block:hover{
+    transform: scale(1.2);
     
 }
  
 
 .item-title {
-    padding: 15px 0 10px ;
-  
+   padding: 15px 0 10px ;
+   border-radius: 10px 10px 0px 0px;
 
 }
+
+
 .item-list {
+
 }
+
 .price {
     padding: 25px 0 35px;
     margin: 2px 0 2px;
   
 }
+
+.price:hover{
+    transform: scale(1.2);
+}
+.price:active{
+    background-color: #D98943;
+}
 .free {
     padding: 18px 0 16px;
+}
+.free:hover{
+    transform: scale(1.2);
+}
+.free:active{
+    background-color: #D98943;
 }
 .space {
     padding: 10px 0 12px;
     margin: 2px 0 2px;
 
+}
+.space:hover{
+    transform: scale(1.2);
+}
+.space:active{
+     background-color: #D98943;
 }

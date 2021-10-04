@@ -37,6 +37,10 @@
     border-radius: 20px;
 }
 
+.download:active{
+    background-color: darkgrey;
+}
+
 .download-link{
     color: white;
     display: flex;

@@ -32,11 +32,18 @@ input{
     padding: 20px 0;
     background-color:rgba(236, 121, 121, 1) ;
     border-radius: 8px 8px 8px 8px ;
+    cursor: pointer;
 }
+.form-button:active{
+    background-color: darkgrey;
+
+}
+
 .button-click{ 
     border: 0;
     color: rgba(255, 255, 255, 1);
     background-color:rgba(236, 121, 121, 1) ;
     cursor: pointer;
+    background-color: transparent;
 
 }
