@@ -1,7 +1,13 @@
 
 header{
+    width: 100%;
     background-color: #000000;
+    position: sticky;
+   
+  
+   
 }
+
 .header-wrapper {
     display: flex;
     justify-content: space-between;

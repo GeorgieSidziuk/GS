@@ -1,0 +1,42 @@
+
+
+.form-block {
+    font-family: 'Open sans'; 
+    width: 370px ;
+    text-align: center;
+
+    
+ }   
+.form-content {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px 8px 8px 8px;
+    
+}
+.form-title {
+    padding: 15px;
+   border-radius: 8px 8px 0px 0px; 
+}
+
+.title-span{
+    color: rgba(236, 121, 121, 1);
+}
+
+.form-item{
+    padding: 20px;
+}
+input{
+    border: 0;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+.form-button {
+    padding: 20px 0;
+    background-color:rgba(236, 121, 121, 1) ;
+    border-radius: 8px 8px 8px 8px ;
+}
+.button-click{ 
+    border: 0;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(236, 121, 121, 1) ;
+    cursor: pointer;
+
+}
