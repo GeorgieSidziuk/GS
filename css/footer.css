@@ -6,12 +6,12 @@
 .footer-wrapper {
 }
 .footer-social {
-    margin-bottom: 20px;
+    padding: 20px ;
 }
 .footer-list {
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    
    
     
 }
@@ -20,6 +20,7 @@
   
 }
 .footer-copyright {
+    padding-bottom: 15px;
 }
 .copyright-text {
     text-align: center;

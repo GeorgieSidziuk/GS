@@ -3,14 +3,18 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 65px -15px 0px;
-
+    
 }
+
+
 .price-block {
     width: 340px;
     margin: 0 15px;
     text-align: center;
- 
+    
 }
+ 
+
 .item-title {
     padding: 15px 0 10px ;
   

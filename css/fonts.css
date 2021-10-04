@@ -1,27 +1,251 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
 
+/* header */
+
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400px;
+    font-size: 32px;
+   
+}
+
+.header-menu__list {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600px ;
+    font-size: 15px;
+    color: #FFFFFFB2;
+}
+
+
+/* headersecond */
+
+
+.header-row {
+}
+.header-row__logo {
+}
+.logo-second {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    
+}
+.header-row__title {
+    font-family: 'Raleway', sans-serif;
+}
+.header-maintitle {
+    font-weight: 400;
+    font-size: 36px;
+    
+
+}
+.header-description {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0,8);
+}
+.header-download {
+}
+.header-download_link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+
+/* socials */
+
+.social-text { 
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.social-title {
+    font-weight: 700 ;
+    font-size: 20px ;
+    color: #333333;
+
+   
+}
+.social-description {
+    font-weight: 400 ;
+    font-size: 14px ;
+    color: #86878B;
+}
+
+
+/* awesome */
+
+.awesome-title {
+
+}
+.awesome-title__main {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+.awesome-description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.awesome-item__text{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.awesome-item__title {
+    font-weight: 700;
+    font-size: 20px;
+}
+.awesome-item__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* pricing */
+
+
+.pricing-title {
+}
+.pricing-title__main {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+.pricing-description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.price-block {
+    font-family: 'Open Sans', sans-serif;
+}
 
 .item-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
     background-color: #333333;
     color: #FFFFFF;
 }
 .item-list {
 }
 .price {
+    font-family: 700;
+    font-size: 35px;
     background-color: #333333;
     color: #FFFFFF;
 }
 
 .free {
+    font-weight: 600;
+    font-size: 14px;
     background-color: #333333;
     color:#FFFFFF80 ;
 }
 .space {
+    font-weight: 400;
+    font-size: 14px;
     background-color:#FFFFFF ;
     color: #86878B;
 }
 
 
 
+/* CUSTOMERS */
+
+.customers-title {
+}
+.customer-title__main {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+
+}
+.customers-description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#86878B ;
+}
+
+.customers-block {
+ font-family: 'Open Sans', sans-serif;   
+}
+.customers-comment {
+
+    font-weight: 400;
+    font-size: 14px;
+    color:#86878B;
+}
+
+.customers-info {
+}
+.customers-name {
+    font-weight: 700;
+    font-size: 20px;
+}
+.customers-proffesion {
+    font-weight: 400;
+    font-size: 14px;
+}
 
 
 
+/* AXURE */
+
+.axure-header {
+    font-family: 'Raleway', sans-serif;
+}
+.axure-title {
+    font-weight: 400;
+    font-size: 36px;
+    color:#FFFFFF;
+
+}
+.axure-description {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    ;
+
+}
+
+.download-link {
+    font-family: 'Open Sans', sans-serif;   
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+
+}
+
+
+
+/* CONTACTUS */
+
+
+.contactus-title {
+
+}
+.contactus-title__main {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    color:  rgba(33, 33, 33, 1);
+    ;
+}
+.contactus-title__description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#86878B ;
+}
