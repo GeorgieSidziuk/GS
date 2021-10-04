@@ -231,7 +231,9 @@ font-family: 'Roboto', sans-serif; */
 
 /* CONTACTUS */
 
-
+.contactus{
+    background-color: white;
+}
 .contactus-title {
 
 }
