@@ -32,6 +32,7 @@ textarea{
     width: 478px;
     height: 216px;
     border-bottom: 1px solid darkgray;
+    resize: none;
 
 }
 
@@ -44,9 +45,9 @@ textarea{
 }
 .button-center {
     width: 166px;
-    padding: 14px 0;
+    padding: 24px 24px;
     border: 0;
-    background-color:  rgba(236, 121, 121, 1);
+    background-color:  crimson;
     color: rgba(255, 255, 255, 1);
-    border-radius: 18px;
+    border-radius: 24px;
 }

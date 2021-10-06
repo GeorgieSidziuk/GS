@@ -9,12 +9,26 @@
     margin: 0px 15px;
 
 }
+
 .customers-comment {
     background-color: #E2E2E2;
     text-align: center;
     padding: 10px 10px;
     border-radius: 12px;
+    transition: all 0.5s ease;
+    
 }
+
+.customers-comment::after{
+    border: 20px solid transparent; 
+    border-top: 20px solid green;
+   
+}
+.customers-comment:hover{
+    transform: scale(1.2, 1.3);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 .customers-item {
     display: flex;
     justify-content: space-evenly;
@@ -24,18 +38,22 @@
 .customers-photo {
    
 }
-img {
+.customer-img {
     width: 80px;
     height: 75px;
     border-radius: 50%;
+    transition: all 0.5s ease;
 }
+.customer-img:hover{
+    transform: scale(1.2);
+}
+
 .customers-info {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
+    transition: all 0.5s ease;
 }
-.customers-name {
-}
-.customers-proffesion {
+.customers-info:hover{
+    transform: scale(1.2, 1.3);
 }

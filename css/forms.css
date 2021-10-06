@@ -18,7 +18,7 @@
 }
 
 .title-span{
-    color: rgba(236, 121, 121, 1);
+    color: crimson;
 }
 
 .form-item{
@@ -30,20 +30,30 @@ input{
 }
 .form-button {
     padding: 20px 0;
-    background-color:rgba(236, 121, 121, 1) ;
+    background-color: crimson ;
     border-radius: 8px 8px 8px 8px ;
     cursor: pointer;
+    
 }
 .form-button:active{
-    background-color: darkgrey;
+    background-color: white;
+    
 
 }
 
 .button-click{ 
+    
     border: 0;
-    color: rgba(255, 255, 255, 1);
-    background-color:rgba(236, 121, 121, 1) ;
-    cursor: pointer;
     background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-family: 'Open sans';
+    font-size: 16px;
+    font-weight: 600;
 
+}
+
+.button-click:hover{
+    color: coral;
 }

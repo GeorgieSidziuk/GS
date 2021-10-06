@@ -26,7 +26,13 @@
    border-radius: 10px 10px 0px 0px;
 
 }
-
+.item-title:hover{
+    transform: scale(1.2);
+   
+}
+.item-title:active{
+     background-color: crimson;
+}
 
 .item-list {
 
@@ -42,7 +48,7 @@
     transform: scale(1.2);
 }
 .price:active{
-    background-color: #D98943;
+    background-color: crimson;
 }
 .free {
     padding: 18px 0 16px;
@@ -51,7 +57,7 @@
     transform: scale(1.2);
 }
 .free:active{
-    background-color: #D98943;
+    background-color: crimson;
 }
 .space {
     padding: 10px 0 12px;
@@ -62,5 +68,5 @@
     transform: scale(1.2);
 }
 .space:active{
-     background-color: #D98943;
+     background-color: crimson;
 }

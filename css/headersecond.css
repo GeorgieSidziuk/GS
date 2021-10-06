@@ -59,6 +59,7 @@
 
 }
 .header-download {
+    display: block;
     width: 135px;
     padding: 12px;
     margin-top: 30px;
@@ -66,16 +67,19 @@
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
-  
-    
+
+}
+.header-download:active{
+    background-color: white;
 }
 .header-download_link {
     color: white; 
-  
-    
 }
-.header-download:active{
-    background-color: darkgrey;
+.header-download_link:hover{
+ color: crimson;
+ 
 }
+
+
 .header-row__form {
 }

@@ -1,0 +1,112 @@
+.tab{
+    background-color: white;
+}
+
+.tab-row {
+   
+}
+
+.tab__items {
+    /* ОБОЛОЧКИ ДЛЯ ВКЛАДОК */
+    display: flex;
+    
+}
+.tab__item {
+    /* САМИ ВКЛАДКИ */
+    /* flex: 0 1 15%; */
+    width: 15%;
+    /* задаем ширину с помощью флекса */
+    height: 50px;
+    /* задаем им высоту */
+    display: flex;
+    /* делаем их послушными */
+    align-items: center;
+    /*центруем по центру */
+    text-transform: uppercase;
+    /* делаем названия прописными */
+    color:#333333 ;
+    /* задаем цвет тексту */
+    text-decoration: none;
+    /* в душе не понимаю зачем */
+   
+}
+.tab__body {
+   
+}
+.tab__block {
+    /* сами табы */
+   
+    padding: 20px;
+     /* задаем внутренний отступ */
+     font-size: 18px;
+     line-height: 16px;
+     /* стилизуем текст */
+     display:none;
+     /* *1)скрываем табы с помощью display none */
+    
+} 
+
+.tab__block:nth-child(1){
+ /* обращаемся к конкретному табу c помощью псевдокласса nth-child
+  и окрашиваем текст */
+
+}
+.tab__block:nth-child(2){
+    /* обращаемся к конкретному табу c помощью псевдокласса nth-child
+  и окрашиваем текст */
+    color: coral;
+
+}
+.tab__block:nth-child(3){
+    /* обращаемся к конкретному табу c помощью псевдокласса nth-child
+  и окрашиваем текст */
+    color: blueviolet;
+
+}
+
+.tab__block:target{
+    /* используем псевдокласс target,который применяется к отдельному блоку href c номером */
+    display: block;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+
+.tab__left {
+    width: 570px;
+}
+
+.tab__text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.title {
+    margin-bottom: 26px;
+}
+.tab-text__description{
+ 
+}
+
+.tab-button {
+    margin-top: 32px;
+   
+}
+.tab-btn{
+    background-color: crimson;
+    color: #FFFFFF;
+    border: 0;
+    padding: 24px 32px;
+    border-radius: 32px; 
+    width: 270px;
+}
+.tab-img__right {
+    width: 470px;
+    height: 500;
+}
+.tab-image {
+}
