@@ -11,7 +11,7 @@
     width: 340px;
     margin: 0 15px;
     text-align: center;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
    
     
 }
@@ -34,9 +34,6 @@
      background-color: crimson;
 }
 
-.item-list {
-
-}
 
 .price {
     padding: 25px 0 35px;

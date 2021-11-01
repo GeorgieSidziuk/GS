@@ -2,8 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+     flex-direction: row;
     margin: 65px -15px 0px;
+  
     
 }
 .form-block__left {
